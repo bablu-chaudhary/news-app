@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const API_KEY = "1d3a0eefa97b499d8fbc4ee93eeb40b7";
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 const mimeTypes = {
     '.html': 'text/html',

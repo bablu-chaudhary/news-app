@@ -1,0 +1,15 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "A news application using News API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["news", "api"],
+  "author": "",
+  "license": "MIT"
+}
